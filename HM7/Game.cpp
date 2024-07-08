@@ -83,8 +83,8 @@ void Game::OnRender()
 	cout << endl;
 	if (m_bWin) cout << "You win!" << endl << endl;
 	else {
-		if (m_iFails == 5) cout << "You lose!" << endl << endl;
-		else cout << "Enter a letter: ";
+		if (m_iFails == 5) cout << "You lose! The word is: " << m_sCurrentWord << endl << endl;
+		else cout << "Enter a letter (0 - quit): ";
 	}
 	
 }
