@@ -1,0 +1,7 @@
+domek
+romb
+klawiatura
+monitor
+kompilator
+telefon
+kalkulator
